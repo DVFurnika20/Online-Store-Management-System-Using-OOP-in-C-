@@ -1,0 +1,6 @@
+C:\Users\DVFurnika20\RiderProjects\Online-Store-Management-System-Using-OOP-in-C-\OnlineStore\OnlineStore.DAL\bin\Debug\OnlineStore.DAL.dll
+C:\Users\DVFurnika20\RiderProjects\Online-Store-Management-System-Using-OOP-in-C-\OnlineStore\OnlineStore.DAL\bin\Debug\OnlineStore.DAL.pdb
+C:\Users\DVFurnika20\RiderProjects\Online-Store-Management-System-Using-OOP-in-C-\OnlineStore\OnlineStore.DAL\obj\Debug\OnlineStore.DAL.csproj.AssemblyReference.cache
+C:\Users\DVFurnika20\RiderProjects\Online-Store-Management-System-Using-OOP-in-C-\OnlineStore\OnlineStore.DAL\obj\Debug\OnlineStore.DAL.csproj.CoreCompileInputs.cache
+C:\Users\DVFurnika20\RiderProjects\Online-Store-Management-System-Using-OOP-in-C-\OnlineStore\OnlineStore.DAL\obj\Debug\OnlineStore.DAL.dll
+C:\Users\DVFurnika20\RiderProjects\Online-Store-Management-System-Using-OOP-in-C-\OnlineStore\OnlineStore.DAL\obj\Debug\OnlineStore.DAL.pdb

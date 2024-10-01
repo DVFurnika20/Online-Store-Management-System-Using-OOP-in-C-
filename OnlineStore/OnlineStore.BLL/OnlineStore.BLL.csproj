@@ -44,6 +44,16 @@
         <Compile Include="Interfaces\IDiscount.cs" />
         <Compile Include="Interfaces\IOrder.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
+        <Compile Include="Services\CustomerService.cs" />
+        <Compile Include="Services\DiscountService.cs" />
+        <Compile Include="Services\OrderService.cs" />
+        <Compile Include="Services\ProductService.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\OnlineStore.DAL\OnlineStore.DAL.csproj">
+        <Project>{5b38d078-3c4e-41f7-9736-d9762bd05be6}</Project>
+        <Name>OnlineStore.DAL</Name>
+      </ProjectReference>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

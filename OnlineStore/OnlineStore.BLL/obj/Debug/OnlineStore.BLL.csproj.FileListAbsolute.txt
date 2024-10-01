@@ -1,0 +1,9 @@
+C:\Users\DVFurnika20\RiderProjects\Online-Store-Management-System-Using-OOP-in-C-\OnlineStore\OnlineStore.BLL\bin\Debug\OnlineStore.BLL.dll
+C:\Users\DVFurnika20\RiderProjects\Online-Store-Management-System-Using-OOP-in-C-\OnlineStore\OnlineStore.BLL\bin\Debug\OnlineStore.BLL.pdb
+C:\Users\DVFurnika20\RiderProjects\Online-Store-Management-System-Using-OOP-in-C-\OnlineStore\OnlineStore.BLL\bin\Debug\OnlineStore.DAL.dll
+C:\Users\DVFurnika20\RiderProjects\Online-Store-Management-System-Using-OOP-in-C-\OnlineStore\OnlineStore.BLL\bin\Debug\OnlineStore.DAL.pdb
+C:\Users\DVFurnika20\RiderProjects\Online-Store-Management-System-Using-OOP-in-C-\OnlineStore\OnlineStore.BLL\obj\Debug\OnlineStore.BLL.csproj.AssemblyReference.cache
+C:\Users\DVFurnika20\RiderProjects\Online-Store-Management-System-Using-OOP-in-C-\OnlineStore\OnlineStore.BLL\obj\Debug\OnlineStore.BLL.csproj.CoreCompileInputs.cache
+C:\Users\DVFurnika20\RiderProjects\Online-Store-Management-System-Using-OOP-in-C-\OnlineStore\OnlineStore.BLL\obj\Debug\OnlineSt.092A8FFB.Up2Date
+C:\Users\DVFurnika20\RiderProjects\Online-Store-Management-System-Using-OOP-in-C-\OnlineStore\OnlineStore.BLL\obj\Debug\OnlineStore.BLL.dll
+C:\Users\DVFurnika20\RiderProjects\Online-Store-Management-System-Using-OOP-in-C-\OnlineStore\OnlineStore.BLL\obj\Debug\OnlineStore.BLL.pdb

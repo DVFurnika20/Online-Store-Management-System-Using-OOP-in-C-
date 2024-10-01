@@ -1,6 +1,11 @@
-﻿namespace OnlineStore.Interfaces;
+﻿using OnlineStore.BLL.Services;
 
-public class IOrder
+namespace OnlineStore.BLL.Interfaces
 {
-    
+    public interface IOrder
+    {
+        bool CreateOrder(ICustomer customer, ProductService product, int quantity);
+        void ApplyDiscount(IDiscount discount);
+        void CompleteOrder();
+    }
 }

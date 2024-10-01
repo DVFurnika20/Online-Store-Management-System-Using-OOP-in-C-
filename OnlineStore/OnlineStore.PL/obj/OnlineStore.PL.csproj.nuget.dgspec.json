@@ -4,6 +4,40 @@
     "C:\\Users\\DVFurnika20\\RiderProjects\\Online-Store-Management-System-Using-OOP-in-C-\\OnlineStore\\OnlineStore.PL\\OnlineStore.PL.csproj": {}
   },
   "projects": {
+    "C:\\Users\\DVFurnika20\\RiderProjects\\Online-Store-Management-System-Using-OOP-in-C-\\OnlineStore\\OnlineStore.BLL\\OnlineStore.BLL.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DVFurnika20\\RiderProjects\\Online-Store-Management-System-Using-OOP-in-C-\\OnlineStore\\OnlineStore.BLL\\OnlineStore.BLL.csproj",
+        "projectName": "OnlineStore.BLL",
+        "projectPath": "C:\\Users\\DVFurnika20\\RiderProjects\\Online-Store-Management-System-Using-OOP-in-C-\\OnlineStore\\OnlineStore.BLL\\OnlineStore.BLL.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\DVFurnika20\\RiderProjects\\Online-Store-Management-System-Using-OOP-in-C-\\OnlineStore\\OnlineStore.DAL\\OnlineStore.DAL.csproj": {
+                "projectPath": "C:\\Users\\DVFurnika20\\RiderProjects\\Online-Store-Management-System-Using-OOP-in-C-\\OnlineStore\\OnlineStore.DAL\\OnlineStore.DAL.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\DVFurnika20\\RiderProjects\\Online-Store-Management-System-Using-OOP-in-C-\\OnlineStore\\OnlineStore.DAL\\OnlineStore.DAL.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DVFurnika20\\RiderProjects\\Online-Store-Management-System-Using-OOP-in-C-\\OnlineStore\\OnlineStore.DAL\\OnlineStore.DAL.csproj",
+        "projectName": "OnlineStore.DAL",
+        "projectPath": "C:\\Users\\DVFurnika20\\RiderProjects\\Online-Store-Management-System-Using-OOP-in-C-\\OnlineStore\\OnlineStore.DAL\\OnlineStore.DAL.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "C:\\Users\\DVFurnika20\\RiderProjects\\Online-Store-Management-System-Using-OOP-in-C-\\OnlineStore\\OnlineStore.PL\\OnlineStore.PL.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -32,7 +66,14 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\DVFurnika20\\RiderProjects\\Online-Store-Management-System-Using-OOP-in-C-\\OnlineStore\\OnlineStore.BLL\\OnlineStore.BLL.csproj": {
+                "projectPath": "C:\\Users\\DVFurnika20\\RiderProjects\\Online-Store-Management-System-Using-OOP-in-C-\\OnlineStore\\OnlineStore.BLL\\OnlineStore.BLL.csproj"
+              },
+              "C:\\Users\\DVFurnika20\\RiderProjects\\Online-Store-Management-System-Using-OOP-in-C-\\OnlineStore\\OnlineStore.DAL\\OnlineStore.DAL.csproj": {
+                "projectPath": "C:\\Users\\DVFurnika20\\RiderProjects\\Online-Store-Management-System-Using-OOP-in-C-\\OnlineStore\\OnlineStore.DAL\\OnlineStore.DAL.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

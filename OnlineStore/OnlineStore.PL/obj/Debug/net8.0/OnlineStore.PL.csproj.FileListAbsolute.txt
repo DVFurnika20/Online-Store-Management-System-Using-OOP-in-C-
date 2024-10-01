@@ -13,3 +13,9 @@ C:\Users\DVFurnika20\RiderProjects\Online-Store-Management-System-Using-OOP-in-C
 C:\Users\DVFurnika20\RiderProjects\Online-Store-Management-System-Using-OOP-in-C-\OnlineStore\OnlineStore.PL\obj\Debug\net8.0\OnlineStore.PL.pdb
 C:\Users\DVFurnika20\RiderProjects\Online-Store-Management-System-Using-OOP-in-C-\OnlineStore\OnlineStore.PL\obj\Debug\net8.0\OnlineStore.PL.genruntimeconfig.cache
 C:\Users\DVFurnika20\RiderProjects\Online-Store-Management-System-Using-OOP-in-C-\OnlineStore\OnlineStore.PL\obj\Debug\net8.0\ref\OnlineStore.PL.dll
+C:\Users\DVFurnika20\RiderProjects\Online-Store-Management-System-Using-OOP-in-C-\OnlineStore\OnlineStore.PL\bin\Debug\net8.0\OnlineStore.BLL.dll
+C:\Users\DVFurnika20\RiderProjects\Online-Store-Management-System-Using-OOP-in-C-\OnlineStore\OnlineStore.PL\bin\Debug\net8.0\OnlineStore.DAL.dll
+C:\Users\DVFurnika20\RiderProjects\Online-Store-Management-System-Using-OOP-in-C-\OnlineStore\OnlineStore.PL\bin\Debug\net8.0\OnlineStore.BLL.pdb
+C:\Users\DVFurnika20\RiderProjects\Online-Store-Management-System-Using-OOP-in-C-\OnlineStore\OnlineStore.PL\bin\Debug\net8.0\OnlineStore.DAL.pdb
+C:\Users\DVFurnika20\RiderProjects\Online-Store-Management-System-Using-OOP-in-C-\OnlineStore\OnlineStore.PL\obj\Debug\net8.0\OnlineStore.PL.csproj.AssemblyReference.cache
+C:\Users\DVFurnika20\RiderProjects\Online-Store-Management-System-Using-OOP-in-C-\OnlineStore\OnlineStore.PL\obj\Debug\net8.0\OnlineSt.B7AC329E.Up2Date

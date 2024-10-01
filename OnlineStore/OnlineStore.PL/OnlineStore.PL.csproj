@@ -8,4 +8,9 @@
         <RootNamespace>OnlineStore</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\OnlineStore.BLL\OnlineStore.BLL.csproj" />
+      <ProjectReference Include="..\OnlineStore.DAL\OnlineStore.DAL.csproj" />
+    </ItemGroup>
+
 </Project>

@@ -1,6 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineStore", "OnlineStore\OnlineStore.csproj", "{E8F1316F-C01F-4E2A-9DC6-0AE097543D67}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineStore.PL", "OnlineStore.PL\OnlineStore.PL.csproj", "{E8F1316F-C01F-4E2A-9DC6-0AE097543D67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineStore.DAL", "OnlineStore.DAL\OnlineStore.DAL.csproj", "{5B38D078-3C4E-41F7-9736-D9762BD05BE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineStore.BLL", "OnlineStore.BLL\OnlineStore.BLL.csproj", "{3C62C167-F72F-49A4-98FB-1FF4908E9DA0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +16,13 @@ Global
 		{E8F1316F-C01F-4E2A-9DC6-0AE097543D67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8F1316F-C01F-4E2A-9DC6-0AE097543D67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8F1316F-C01F-4E2A-9DC6-0AE097543D67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B38D078-3C4E-41F7-9736-D9762BD05BE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B38D078-3C4E-41F7-9736-D9762BD05BE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B38D078-3C4E-41F7-9736-D9762BD05BE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B38D078-3C4E-41F7-9736-D9762BD05BE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C62C167-F72F-49A4-98FB-1FF4908E9DA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C62C167-F72F-49A4-98FB-1FF4908E9DA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C62C167-F72F-49A4-98FB-1FF4908E9DA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C62C167-F72F-49A4-98FB-1FF4908E9DA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

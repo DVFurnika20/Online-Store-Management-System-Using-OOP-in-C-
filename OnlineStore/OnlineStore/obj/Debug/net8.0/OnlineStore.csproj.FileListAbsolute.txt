@@ -1,0 +1,15 @@
+C:\Users\DVFurnika20\RiderProjects\Online-Store-Management-System-Using-OOP-in-C-\OnlineStore\OnlineStore\bin\Debug\net8.0\OnlineStore.exe
+C:\Users\DVFurnika20\RiderProjects\Online-Store-Management-System-Using-OOP-in-C-\OnlineStore\OnlineStore\bin\Debug\net8.0\OnlineStore.deps.json
+C:\Users\DVFurnika20\RiderProjects\Online-Store-Management-System-Using-OOP-in-C-\OnlineStore\OnlineStore\bin\Debug\net8.0\OnlineStore.runtimeconfig.json
+C:\Users\DVFurnika20\RiderProjects\Online-Store-Management-System-Using-OOP-in-C-\OnlineStore\OnlineStore\bin\Debug\net8.0\OnlineStore.dll
+C:\Users\DVFurnika20\RiderProjects\Online-Store-Management-System-Using-OOP-in-C-\OnlineStore\OnlineStore\bin\Debug\net8.0\OnlineStore.pdb
+C:\Users\DVFurnika20\RiderProjects\Online-Store-Management-System-Using-OOP-in-C-\OnlineStore\OnlineStore\obj\Debug\net8.0\OnlineStore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DVFurnika20\RiderProjects\Online-Store-Management-System-Using-OOP-in-C-\OnlineStore\OnlineStore\obj\Debug\net8.0\OnlineStore.AssemblyInfoInputs.cache
+C:\Users\DVFurnika20\RiderProjects\Online-Store-Management-System-Using-OOP-in-C-\OnlineStore\OnlineStore\obj\Debug\net8.0\OnlineStore.AssemblyInfo.cs
+C:\Users\DVFurnika20\RiderProjects\Online-Store-Management-System-Using-OOP-in-C-\OnlineStore\OnlineStore\obj\Debug\net8.0\OnlineStore.csproj.CoreCompileInputs.cache
+C:\Users\DVFurnika20\RiderProjects\Online-Store-Management-System-Using-OOP-in-C-\OnlineStore\OnlineStore\obj\Debug\net8.0\OnlineStore.sourcelink.json
+C:\Users\DVFurnika20\RiderProjects\Online-Store-Management-System-Using-OOP-in-C-\OnlineStore\OnlineStore\obj\Debug\net8.0\OnlineStore.dll
+C:\Users\DVFurnika20\RiderProjects\Online-Store-Management-System-Using-OOP-in-C-\OnlineStore\OnlineStore\obj\Debug\net8.0\refint\OnlineStore.dll
+C:\Users\DVFurnika20\RiderProjects\Online-Store-Management-System-Using-OOP-in-C-\OnlineStore\OnlineStore\obj\Debug\net8.0\OnlineStore.pdb
+C:\Users\DVFurnika20\RiderProjects\Online-Store-Management-System-Using-OOP-in-C-\OnlineStore\OnlineStore\obj\Debug\net8.0\OnlineStore.genruntimeconfig.cache
+C:\Users\DVFurnika20\RiderProjects\Online-Store-Management-System-Using-OOP-in-C-\OnlineStore\OnlineStore\obj\Debug\net8.0\ref\OnlineStore.dll

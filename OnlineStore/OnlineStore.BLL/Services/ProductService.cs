@@ -34,7 +34,15 @@ namespace OnlineStore.BLL.Services
 
         public void DisplayDetails()
         {
-            Console.WriteLine($"Product: {Name}, Price: ${Price}, Stock: {_product.Stock}");
+            Console.WriteLine($"Product: {Name}, Type: {_product.GetProductType()}, Price: ${Price}, Stock: {_product.Stock}");
+            if (_product is PhysicalProduct physical)
+            {
+                Console.WriteLine($"Weight: {physical.Weight} kg");
+            }
+            else if (_product is DigitalProduct digital)
+            {
+                Console.WriteLine($"Download Link: {digital.DownloadLink}");
+            }
         }
     }
 }

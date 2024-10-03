@@ -39,14 +39,16 @@
         <Reference Include="System.Xml"/>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Class1.cs"/>
         <Compile Include="Interfaces\ICustomer.cs" />
         <Compile Include="Interfaces\IDiscount.cs" />
         <Compile Include="Interfaces\IOrder.cs" />
+        <Compile Include="Interfaces\IPayment.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
+        <Compile Include="Services\BulkDiscount.cs" />
         <Compile Include="Services\CustomerService.cs" />
         <Compile Include="Services\DiscountService.cs" />
         <Compile Include="Services\OrderService.cs" />
+        <Compile Include="Services\PaymentService.cs" />
         <Compile Include="Services\ProductService.cs" />
     </ItemGroup>
     <ItemGroup>

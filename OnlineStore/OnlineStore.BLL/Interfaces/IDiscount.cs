@@ -2,6 +2,6 @@
 {
     public interface IDiscount
     {
-        decimal ApplyDiscount(decimal originalPrice);
+        decimal ApplyDiscount(decimal totalPrice, int quantity);
     }
 }

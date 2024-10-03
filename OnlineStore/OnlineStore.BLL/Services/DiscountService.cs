@@ -4,16 +4,16 @@ namespace OnlineStore.BLL.Services
 {
     public class FixedDiscount : IDiscount
     {
-        private readonly decimal _amount;
+        private readonly decimal _discountAmount;
 
-        public FixedDiscount(decimal amount)
+        public FixedDiscount(decimal discountAmount)
         {
-            _amount = amount;
+            _discountAmount = discountAmount;
         }
 
-        public decimal ApplyDiscount(decimal originalPrice)
+        public decimal ApplyDiscount(decimal totalPrice, int quantity)
         {
-            return originalPrice - _amount;
+            return totalPrice - _discountAmount;
         }
     }
 
@@ -26,9 +26,9 @@ namespace OnlineStore.BLL.Services
             _percentage = percentage;
         }
 
-        public decimal ApplyDiscount(decimal originalPrice)
+        public decimal ApplyDiscount(decimal totalPrice, int quantity)
         {
-            return originalPrice * (1 - _percentage / 100);
+            return totalPrice * (1 - _percentage / 100);
         }
     }
 }

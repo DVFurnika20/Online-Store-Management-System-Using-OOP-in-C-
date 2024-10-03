@@ -9,34 +9,36 @@ namespace OnlineStore.PL
     {
         static void Main(string[] args)
         {
-            // Create a customer
             var customerData = new Customer("John", "Doe");
             ICustomer customer = new CustomerService(customerData);
 
-            // Create products
-            var laptopData = new Product("Laptop", 1000.00m, 5);
-            var smartphoneData = new Product("Smartphone", 700.00m, 2);
-            var ebookData = new Product("E-Book", 50.00m, 100);
+            var laptopData = new PhysicalProduct("Laptop", 1000.00m, 5, 2.5);
+            var smartphoneData = new PhysicalProduct("Smartphone", 700.00m, 2, 0.3);
+            var ebookData = new DigitalProduct("E-Book", 50.00m, 100, "http://example.com/download");
 
             var laptop = new ProductService(laptopData);
             var smartphone = new ProductService(smartphoneData);
             var ebook = new ProductService(ebookData);
 
-            // Subscribe to the out-of-stock event
             laptop.OutOfStockEvent += message => Console.WriteLine($"[EVENT] {message}");
             smartphone.OutOfStockEvent += message => Console.WriteLine($"[EVENT] {message}");
             ebook.OutOfStockEvent += message => Console.WriteLine($"[EVENT] {message}");
 
-            // Create orders
+            laptop.DisplayDetails();
+            smartphone.DisplayDetails();
+            ebook.DisplayDetails();
+
+            Console.WriteLine();
+
             var laptopOrder = new OrderService();
             var smartphoneOrder = new OrderService();
             var ebookOrder = new OrderService();
+            var bulkOrder = new OrderService();
 
-            // Place orders with validation and discounts
             if (laptopOrder.CreateOrder(customer, laptop, 3))
             {
-                // Apply a 10% discount to the laptop order
                 laptopOrder.ApplyDiscount(new PercentageDiscount(10));
+                laptopOrder.SetPaymentMethod(new CreditCardPayment());
                 laptopOrder.CompleteOrder();
             }
 
@@ -44,8 +46,8 @@ namespace OnlineStore.PL
 
             if (ebookOrder.CreateOrder(customer, ebook, 1))
             {
-                // Apply a $5 fixed discount on ebooks
                 ebookOrder.ApplyDiscount(new FixedDiscount(5));
+                ebookOrder.SetPaymentMethod(new PayPalPayment());
                 ebookOrder.CompleteOrder();
             }
 
@@ -53,18 +55,27 @@ namespace OnlineStore.PL
 
             if (smartphoneOrder.CreateOrder(customer, smartphone, 2))
             {
-                // Apply a $50 fixed discount on smartphones
                 smartphoneOrder.ApplyDiscount(new FixedDiscount(50));
+                smartphoneOrder.SetPaymentMethod(new CreditCardPayment());
                 smartphoneOrder.CompleteOrder();
             }
 
             Console.WriteLine();
 
-            // Attempt to create an order with insufficient stock
             if (!laptopOrder.CreateOrder(customer, laptop, 3))
             {
                 Console.WriteLine("Failed to create second laptop order due to insufficient stock.");
             }
+
+            Console.WriteLine();
+
+            if (bulkOrder.CreateOrder(customer, laptop, 2))
+            {
+                bulkOrder.ApplyDiscount(new BulkDiscount(2, 15));
+                bulkOrder.SetPaymentMethod(new CreditCardPayment());
+                bulkOrder.CompleteOrder();
+            }
+
         }
     }
 }
